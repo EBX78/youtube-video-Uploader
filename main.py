@@ -34,7 +34,7 @@ def duration(ytobj):
         second = (duration % 3600) % 60
         return f'{int(hour)}:{int(minute)}:{second}'
 
-BOT_TOKEN = '5613844224:AAGPJVwuxo-hfEI62CHLCOz5BSEws8KAOYw'
+BOT_TOKEN = 'bot:token'
 
 logging.basicConfig(level=logging.INFO)
 bot = Bot(token=BOT_TOKEN)
